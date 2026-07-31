@@ -1,0 +1,29 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "next/image": [
+        "./src/vite-shims/next-image.tsx"
+      ],
+      "next/link": [
+        "./src/vite-shims/next-link.tsx"
+      ],
+      "next/navigation": [
+        "./src/vite-shims/next-navigation.tsx"
+      ],
+    },
+    "ignoreDeprecations": "6.0"
+  }
+}

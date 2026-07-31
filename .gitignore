@@ -1,0 +1,21 @@
+# Dependencies and generated output
+**/node_modules/
+**/dist/
+**/coverage/
+**/.vite/
+**/.npm-cache/
+**/.runtime-logs/
+
+# Local environment and secrets
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Logs and local tooling
+*.log
+*.zip
+.DS_Store
+.idea/
+.vscode/
